@@ -2,6 +2,10 @@
 
 A small full-stack sample app for browsing movies, picking a showtime, selecting seats, and booking tickets.
 
+> This branch also adds a React rebuild of the same app: the API now lives in
+> [`server/`](server) and the React frontend lives in [`react-app/`](react-app).
+> The instructions below describe the original vanilla JS version at the repo root.
+
 ## Stack
 
 - **Backend:** Node.js + Express, serving a JSON API with in-memory data (no database needed).
